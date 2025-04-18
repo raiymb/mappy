@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+mongo:
+  uri: mongodb://localhost:27017
+
+redis:
+  addr: localhost:6379
+
+jwt:
+  secret: "dev‑only‑secret"
+  accessTTL: 30m
+  refreshTTL: 720h

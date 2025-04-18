@@ -1,0 +1,21 @@
+# Бинарные файлы и временные файлы Go
+*.exe
+*.out
+*.log
+*.test
+*.tmp
+
+# Кэш и временные файлы
+go.work.sum
+vendor/
+
+
+# VS Code
+.vscode/
+
+# GoLand
+.idea/
+*.iml
+
+
+.env

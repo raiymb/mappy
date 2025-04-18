@@ -1,0 +1,21 @@
+server:
+  host: 0.0.0.0
+  port: 8080
+
+mongo:
+  uri: mongodb://mongo:27017
+  db: maps_db
+
+redis:
+  addr: redis:6379
+  password: ""
+  db: 0
+
+jwt:
+  secret: "⚠️  change‑me"
+  accessTTL: 15m     # Go duration strings
+  refreshTTL: 720h   # 30d
+
+rateLimit:
+  window: 1m         # fixed window size
+  max: 120           # requests / window / IP
