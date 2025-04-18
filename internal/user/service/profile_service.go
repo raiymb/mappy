@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/raiymb/mappy/internal/internal/user/dto"
-	"github.com/raiymb/mappy/internal/internal/user/repository"
+	"github.com/raiymb/mappy/internal/user/dto"
+	"github.com/raiymb/mappy/internal/user/repository"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

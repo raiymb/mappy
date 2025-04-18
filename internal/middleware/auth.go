@@ -7,6 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/raiymb/mappy/internal/token"
 	"github.com/raiymb/mappy/pkg/logger"
+	"go.uber.org/zap"
 )
 
 // Auth returns a Gin middleware that:
